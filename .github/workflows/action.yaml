@@ -2,6 +2,7 @@ name: Must run on Custom Runner
 
 on: push
 
+
 jobs:
  init:
   runs-on: self-hosted
