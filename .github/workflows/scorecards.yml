@@ -6,6 +6,9 @@ on:
     - cron: '43 11 * * 2'
   push:
     branches: [ main ]
+    paths-ignore: 
+      - '**/*.md'
+      - '**/*.txt'
 
 # Declare default permissions as read only.
 permissions: read-all
